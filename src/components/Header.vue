@@ -36,13 +36,9 @@ data(){
     {
         text:'donate',
     },
-],
-    }
-methods:{
-
-} 
-
-}
+   ]
+    };
+},
 };
 </script>
 

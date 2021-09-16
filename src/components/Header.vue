@@ -6,7 +6,9 @@
       </div>
       <div class="col">
         <ul >
-          <li></li>
+          <li v-for="item in items" :key="item.id" class="d-inline-block p-3 ">
+              <a href="">{{item.text}}</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -17,7 +19,29 @@
 export default {
   name: "Header",
 data(){
-    
+    return{
+  items:[
+    {
+        text:'home',
+    },
+    {
+        text:'mission',
+    },
+    {
+        text:'causes',
+    },
+    {
+        text:'journal',
+    },
+    {
+        text:'donate',
+    },
+],
+    }
+methods:{
+
+} 
+
 }
 };
 </script>

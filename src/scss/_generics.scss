@@ -1,9 +1,15 @@
+
 // Header Section
 
 .jumbotrone{
     color: white;
 }
 
+.menu a {
+    color: white;
+  }
+
+// second-main section
 .values{
     line-height: 2.5rem;
     font-size: 15px;
@@ -12,3 +18,13 @@
 .button-learn{
     display: inline-block;
 }
+.button-white{
+    color: white;
+    border: 1px solid white;
+}
+
+.button-orange{
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
+

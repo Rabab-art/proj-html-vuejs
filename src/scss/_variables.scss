@@ -1,5 +1,29 @@
+header{
+    background-image: url(./assets/home-page-slider.jpg);
+   
+}
+
 .info-charity{
     background-image: url(./assets/home-content-bg-1.jpg);
     background-size: cover;
+  max-width: 100%; 
+}
+
+.numbers{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+
+}
+
+.info-charity-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.second-main-section{
+    background-image: url(./assets/home-content-bg-2.jpg);
+    color: white;
 }
 

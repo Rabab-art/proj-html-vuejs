@@ -1,3 +1,4 @@
+
 *{
     margin: 0 auto;
     box-sizing: border-box;
@@ -36,10 +37,23 @@ input{
 h2 {
     border-bottom: 1px solid goldenrod ;
     
+    
 }
 
 p{
     line-height: 1.5rem;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 13px;
 }
+
+input{
+    background-color: transparent;
+}
+
+.orange{
+    color: white;
+    background-color: goldenrod;
+    border: 1px solid goldenrod;
+    width: auto;
+}
+

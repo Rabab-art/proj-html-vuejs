@@ -1,4 +1,5 @@
 <template>
+<!-- sezione dedicata al jumbotrone della sezione dell'header -->
     <div
         class="row  text-center d-flex justify-content-between 
           mt-5 py-5
@@ -10,8 +11,8 @@
             As long as poverty, injustice & inequality persist, none of us can
             truly rest
           </p>
-          <input type="button" value="OUR MISSION">
-          <input type="button" value="DONATE NOW">
+          <input class="button-white" type="button" value="OUR MISSION">
+          <input class="button-orange" type="button" value="DONATE NOW">
         </div>
       </div>
 </template>

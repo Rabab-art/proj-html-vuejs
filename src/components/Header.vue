@@ -1,5 +1,6 @@
 <template>
   <header class="jumbotrone-section">
+    <!-- inserimento della struttura per la navbar -->
     <section class="container">
       <div class="row  p-2 d-flex justify-content-end">
         <div class="col">
@@ -13,11 +14,13 @@
               class="menu d-inline-block p-3 "
             >
               <a href="">{{ item.text }}</a>
+             
             </li>
+             <input class="orange" type="submit" value="DONATE">
           </ul>
         </div>
       </div>
-      <HeaderJumbo />
+      <HeaderJumbo /> 
     </section>
   </header>
 </template>
@@ -29,6 +32,8 @@ export default {
   components: {
     HeaderJumbo,
   },
+// creazione di un array per il menu della navbar
+
   data() {
     return {
       items: [
@@ -44,9 +49,7 @@ export default {
         {
           text: "JOURNAL",
         },
-        {
-          text: "DONATE",
-        },
+       
       ],
     };
   },
@@ -54,7 +57,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.menu a {
-  color: white;
-}
+
 </style>

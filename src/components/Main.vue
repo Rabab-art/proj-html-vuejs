@@ -4,7 +4,10 @@
         <!-- PRIMA SEZIONE DEL MAIN CREAZIONE DI DUE COLONNE DI MISURA DIVERSA  -->
       <div class="row no-gutters  justify-content-center m-auto">
         <div class="col-md-8 p-5 ml-1">
-          <h2 class="mb-5 ">EVERY MOMENTS COUNTS</h2>
+          <h2 class="mb-3">EVERY MOMENTS COUNTS</h2>
+           <div class="left-b-line  "></div>
+        
+          
 
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -42,11 +45,14 @@
       </div>
     </section>
     <SecondMainSection/>
+    <ThirdMainSection/>
   </main>
 </template>
 
 <script>
-import SecondMainSection from '@/components/SecondMainSection.vue'
+import SecondMainSection from '@/components/SecondMainSection.vue';
+import ThirdMainSection from '@/components/ThirdMainSection.vue';
+
 export default {
   name: "Main",
 
@@ -74,6 +80,7 @@ export default {
 
   components:{
       SecondMainSection,
+      ThirdMainSection,
   }
 };
 </script>

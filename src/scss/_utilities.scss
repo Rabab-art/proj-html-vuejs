@@ -34,10 +34,17 @@ input{
     padding: 5px;
 }
 
-h2 {
-    border-bottom: 1px solid goldenrod ;
-    
-    
+.left-b-line{
+    border-bottom: 3px solid #fcd66c;
+    width: 150px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+}
+
+.b-line{ border-bottom: 3px solid #fcd66c;
+    width: 150px;
+    margin-bottom: 25px;
+    margin-top: 5px; 
 }
 
 p{
@@ -56,4 +63,5 @@ input{
     border: 1px solid goldenrod;
     width: auto;
 }
+
 

@@ -18,9 +18,11 @@
       <div class="row p-3 values">
         <!-- creazione di v-for che cicla i testi delle colonne    -->
 
-        <div v-for="value in values" :key="value.id" class="col mt-5">
-          {{ value.text }}
-           <br/>
+        <div v-for="value in values" :key="value.id" class="col mt-3">
+          <div class="icon "><font-awesome-icon :icon="['fas', value.icon ]"/></div>
+        <div class="title"> {{ value.title }}</div>
+          <p class="p-3">{{ value.text }}</p>
+          
           <input
             class="button-learn p-1 orange"
             type="submit"
@@ -40,18 +42,26 @@ export default {
     return {
       values: [
         {
+          icon:'tint',
+          title:'Clean water',
           text:
             "Litterae non intrant sine sanguine, litterarum radices amarae, fructus dulces.",
         },
         {
+          icon:'stethoscope',
+          title:'Vaccinations',
           text:
             "Litterae non intrant sine sanguine, litterarum radices amarae, fructus dulces.",
         },
         {
+          icon:'graduation-cap',
+          title:'Education',
           text:
             "Litterae non intrant sine sanguine, litterarum radices amarae, fructus dulces.",
         },
         {
+          icon:'seedling',
+          title:'Framing',
           text:
             "Litterae non intrant sine sanguine, litterarum radices amarae, fructus dulces.",
         },
@@ -61,4 +71,13 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.icon{
+font-size: 70px;
+color: rgb(251, 181, 50);
+}
+
+.title{
+  font-size: 25px;
+}
+</style>

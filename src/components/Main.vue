@@ -38,8 +38,8 @@
             class="p-3 mb-3 mt-3 numbers"
             style="color:white"
            
-          >{{info.number }}
-            <div class="info-charity-text" style="width: 100%" aria-valuenow="100">{{info.item}}</div>
+          ><font-awesome-icon :icon="['fas', info.icon ]"/> {{info.number }}
+            <div class="info-charity-text" style="width: 100%" aria-valuenow="100"> {{info.item}}</div>
           </div>
         </div>
       </div>
@@ -59,18 +59,21 @@ export default {
 
   data() {
     return {
+
       infos: [
         {
-    
-          item: "Volunteers Worldwide",
+          icon:'heart',
+          item: " Volunteers Worldwide",
           number: "2032",
           
         },
         {
+          icon:'globe',
           item: "  Active progetcts",
           number: "132",
         },
         {
+          icon:'dollar-sign',
           item: "  Donated",
           number: "132",
         },

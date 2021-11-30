@@ -11,6 +11,7 @@
             As long as poverty, injustice & inequality persist, none of us can
             truly rest
           </p>
+        
           <input class="button-white" type="button" value="OUR MISSION">
           <input class="button-orange" type="button" value="DONATE NOW">
         </div>
